@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void sub2()
+void sub2(int num)
 {
-    printf("This is sub2\n");
+    printf("This is sub2 and number is %d\n", num);
 }
