@@ -1,5 +1,8 @@
 
-SUBS = main.o sub1.o sub2.o
+all: myprog
+
+SUBS = main.o sub1.o
+SUBS += sub2.o
 
 CFLAG = -g -02
 
