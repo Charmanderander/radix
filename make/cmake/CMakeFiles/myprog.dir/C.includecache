@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/radix/course/make/cmake/main.c
+stdio.h
+-
+stdlib.h
+-
+
+/home/radix/course/make/cmake/sub1.c
+stdio.h
+-
+
+/home/radix/course/make/cmake/sub2.c
+stdio.h
+-
+

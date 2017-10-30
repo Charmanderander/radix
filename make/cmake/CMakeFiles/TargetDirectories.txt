@@ -1,0 +1,3 @@
+/home/radix/course/make/cmake/CMakeFiles/edit_cache.dir
+/home/radix/course/make/cmake/CMakeFiles/rebuild_cache.dir
+/home/radix/course/make/cmake/CMakeFiles/myprog.dir

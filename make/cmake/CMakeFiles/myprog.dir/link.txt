@@ -1,0 +1,1 @@
+/usr/bin/cc     CMakeFiles/myprog.dir/main.c.o CMakeFiles/myprog.dir/sub1.c.o CMakeFiles/myprog.dir/sub2.c.o  -o myprog -rdynamic 
