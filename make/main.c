@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "sub.h"
-//void sub1();
-//void sub2();
+
+void sub1();
+void sub2();
 
 int main(int argc, char *argv [])
 {
