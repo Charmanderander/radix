@@ -1,0 +1,6 @@
+writing n = 0
+writing n = 1
+writing n = 2
+writing n = 3
+writing n = 4
+writing n = 5
