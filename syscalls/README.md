@@ -15,8 +15,3 @@ By running `chmod u+s` as root to a command, you are allowing the command to be 
 
 e.g. `chmod u+s /bin/cp` when you are not root and run `cp`, `cp` will be ran as root account
 
-When you declare a variable like this `struct rusage rsg`, you are allocating memory on the stack
-
-When you declare a variable and malloc it `struct rusage rsg = malloc(sizeof rsg)`, you are allocating memory from the heap
-
-If you declare a variable as such `struct rusage *rsg`, you are only creating a pointer, but not allocating any memory
