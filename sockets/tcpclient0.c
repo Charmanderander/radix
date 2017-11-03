@@ -14,12 +14,10 @@
 
 int main(int argc, char *argv []) 
 {
-
     if ( argc < 2 ) {
         fprintf(stderr, "Usage: %s <ip>", argv[0]);
         exit(EXIT_FAILURE);
     }
-
 
     int sockfd = socket(AF_INET, SOCK_STREAM, 0);
     if ( sockfd == -1 ) errquit("socket");
